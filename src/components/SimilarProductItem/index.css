@@ -1,0 +1,14 @@
+/* Write your CSS here */
+.similarProductsList {
+  padding-left: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.similarProductsHeading {
+  font-family: roboto;
+  font-weight: 500;
+  color: #1e293b;
+  font-size: 30px;
+}

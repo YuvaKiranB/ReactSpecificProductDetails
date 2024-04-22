@@ -1,0 +1,218 @@
+/* Write your CSS here */
+
+.productDetailsMain {
+  min-height: 90vh;
+  width: 100%;
+}
+
+.productDetailsContainer {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 1200px;
+}
+
+.productDetailImage {
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.titleHeading {
+  font-family: roboto;
+  color: #616e7c;
+  font-weight: 500;
+  font-size: 30px;
+  margin-top: 30px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.pricePara {
+  font-size: 25px;
+  font-family: roboto;
+  font-weight: 600;
+  color: #171f46;
+  padding-top: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.ratingContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #3b82f6;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.ratingAndReviewContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.ratingImage {
+  height: 24px;
+}
+
+.ratingPara {
+  font-family: roboto;
+  font-weight: 500;
+  color: white;
+  font-size: 18px;
+  margin-right: 4px;
+  margin: 2px;
+}
+
+.reviewsPara {
+  font-family: roboto;
+  color: #12022f;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.descriptionPara {
+  font-family: roboto;
+  line-height: 1.4;
+  font-size: 16px;
+  color: #475569;
+}
+
+.span1 {
+  font-size: 18px;
+  font-family: roboto;
+  font-weight: 500;
+  color: #12022f;
+  margin-bottom: 0px;
+}
+
+.availabilityAndBrandPara {
+  color: #616e7c;
+  font-weight: 500;
+  font-family: roboto;
+}
+
+.hr {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border: 1px solid #cbced2;
+  width: 100%;
+}
+
+.quantityContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 0px;
+  padding-top: 0px;
+  width: 120px;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.quantityButton {
+  padding: 0px;
+  border-width: 0px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.symbol {
+  font-size: 20px;
+  color: #475569;
+}
+
+.quantityPara {
+  font-family: roboto;
+  font-weight: 500;
+  color: #475569;
+  font-size: 20px;
+}
+
+.addToCartButton {
+  padding: 12px;
+  padding-left: 18px;
+  padding-right: 18px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 5px;
+  color: white;
+  background-color: #3b82f6;
+  border-width: 0px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.failureContainer {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.failureImage {
+  width: 100%;
+}
+
+.failureHeading {
+  font-family: roboto;
+  font-size: 35px;
+  margin-top: 50px;
+}
+
+.continueButton {
+  padding: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+  border-radius: 5px;
+  font-family: roboto;
+  font-size: 15px;
+  background-color: #3b82f6;
+  font-weight: 500;
+  border-width: 0px;
+  cursor: pointer;
+}
+
+.specificDetailsContainer {
+  min-height: 90vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .productDetailsPart1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .part1 {
+    width: 45%;
+    margin-right: 30px;
+  }
+
+  .part2 {
+    width: 45%;
+  }
+
+  .similarProductsContainer {
+    width: 92%;
+    align-self: center;
+  }
+}
